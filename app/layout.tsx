@@ -1,0 +1,3 @@
+import "./globals.css";import Link from "next/link";
+export const metadata={title:"Pendaftaran Kursus",description:"Sistem pendaftaran kursus"};
+export default function Layout({children}:{children:React.ReactNode}){return <><nav className="nav"><div className="navin container"><Link className="brand" href="/">Pendaftaran Kursus</Link><Link className="btn secondary" href="/admin">Pentadbir</Link></div></nav>{children}</>}
